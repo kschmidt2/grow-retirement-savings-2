@@ -34,10 +34,11 @@ $font-stack: 'Avenir', 'Avenir Next', 'Arial', sans-serif;
         fill: $slate-secondary-5;
         font-size: 14px;
         line-height: 18px;
-        margin-bottom: 10px;
-        width: 70%;
+        margin-bottom: 30px;
+        width: 100%;
         @include sm-md-xl {
             width: 80%;
+            margin-bottom: 10px;
         }
     }
 
@@ -65,11 +66,11 @@ $font-stack: 'Avenir', 'Avenir Next', 'Arial', sans-serif;
 
     & .chart-source {
         &:before {
-            content: "Source: ";
+            content: "Sources: ";
         }
         float: left;
         @include sm-md-xl {
-            float: none;
+            // float: none;
           } 
     }
 }
