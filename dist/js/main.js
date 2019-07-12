@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
       text: null
     },
     series: [{
-      data: [["$30,000", 252600], ["$40,000", 387900], ["$50,000", 523500], ["$60,000", 659100], ["$70,000", 794700], ["$80,000", 930300], ["$90,000", 1065600], ["$100,000", 1204800], ["$150,000", 2024400], ["$200,000", 2896500]]
+      data: [["$20,000", 166575], ["$30,000", 634350], ["$40,000", 1101825], ["$50,000", 1569600], ["$60,000", 2034900], ["$70,000", 2502375], ["$80,000", 3142950], ["$90,000", 3801225], ["$100,000", 4457625]]
     }],
     plotOptions: {
       series: {
@@ -42,13 +42,14 @@ document.addEventListener('DOMContentLoaded', function () {
     yAxis: {
       title: false,
       labels: {
+        autoRotation: false,
         useHTML: true,
         overflow: 'allow',
         formatter: function formatter() {
           return this.value / 1000000;
         }
       },
-      max: 3000000
+      max: 5000000
     },
     credits: {
       enabled: false
