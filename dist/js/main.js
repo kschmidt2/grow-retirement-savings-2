@@ -10,7 +10,7 @@ Highcharts.setOptions({
   }
 });
 document.addEventListener('DOMContentLoaded', function () {
-  var myChart = Highcharts.chart('chart-container', {
+  var myChart = Highcharts.chart('chart-container-2', {
     chart: {
       type: 'bar',
       styledMode: true,
