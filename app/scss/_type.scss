@@ -35,8 +35,8 @@ $font-stack: 'Avenir', 'Avenir Next', 'Arial', sans-serif;
         fill: $slate-secondary-5;
         font-size: 14px;
         line-height: 18px;
-        margin-bottom: 60px;
-        width: 100%;
+        margin-bottom: 20px;
+        width: 75%;
         @include sm-md-xl {
             width: 80%;
             margin-bottom: 10px;
